@@ -1,0 +1,28 @@
+name: gera_gruzin
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  intl: ^0.17.0
+  readmore: ^3.0.0
+
+  
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  assets:
+    - assets/https://st3.depositphotos.com/6009652/12717/v/450/depositphotos_127170592-stock-illustration-caucasian-man-in-national-dress.jpg
+    - assets/https://static.tildacdn.one/tild3966-3366-4532-b736-346131313234/Hinkali-dostavka-mos.png
+  uses-material-design: true
