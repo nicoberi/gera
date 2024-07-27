@@ -13,7 +13,7 @@ class _KhinkaliState extends State<Khinkali> {
   void _addKhinkali() {
     setState(() {
       khinkaliList.add(
-          'assets/khinkali.png'); // предположим, что картинка хинкали лежит в assets
+          'assets/khinkali.png'); // предположим что картинка хинкали лежит в assets
       if (khinkaliList.length > 5) {
         Navigator.pop(context);
       }
